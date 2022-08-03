@@ -1,0 +1,17 @@
+{% extends 'layouts/block-wrap.twig' %}
+{% import 'macros/helpers.twig' as helpers %}
+{% import 'macros/media.twig' as media %}
+{% block block__inner %}
+    <div class="home-hero__bg" {{ helpers.animation(is_preview, 'fade-left', 400) }}>
+        {{ media.picture(fields.image, 'home-hero__picture cluster-img', null, 'large') }}
+
+        <a href="" class="round-btn round-btn--bottom js-scroll-next">{{ arrow }}</a>
+    </div>
+    <div class="home-hero__content" {{ helpers.animation(is_preview, 'fade-right', 400) }}>
+        <div class="row g-0">
+            <div class="col-12 col-lg-11 offset-lg-1">
+                {{ InnerBlocks }}
+            </div>
+        </div>
+    </div>
+{% endblock %}

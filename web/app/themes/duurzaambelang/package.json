@@ -1,0 +1,48 @@
+{
+    "name": "wplemon-child",
+    "version": "3.9.0",
+    "author": "Studio Lemon <erik@studiolemon.nl>",
+    "homepage": "https://studio-lemon.github.io/wp-lemon-docs/",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Studio-Lemon/wp-lemon.git"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "config": {
+        "userConfig": "/resources/assets/config.json"
+    },
+    "browserslist": [
+        "extends @wordpress/browserslist-config"
+    ],
+    "scripts": {
+        "bootstrap-project": "composer update --working-dir=../../../../ && yarn install",
+        "update-parent": "composer update --optimize-autoloader --working-dir=../../../../ && yarn install",
+        "dev": "basebuilder-config development",
+        "development": "basebuilder-config development",
+        "watch": "basebuilder-config watch",
+        "production": "basebuilder-config production",
+        "lint": "yarn run -s lint:scripts && npm run -s lint:styles",
+        "lint:styles": "stylelint \"resources/assets/styles/**/*.scss\"",
+        "lint:scripts": "eslint resources/assets/scripts",
+        "lint:twig": "yarn run prettier --write \"resources/views/**/*.twig\""
+    },
+    "license": "GPL-3.0",
+    "devDependencies": {
+        "@wordpress/browserslist-config": "^4.1",
+        "basebuilder-config": "^2.8",
+        "prettier": "^2.7",
+        "prettier-plugin-twig-melody": "^0.4.6",
+        "stylelint": "^14.9"
+    },
+    "dependencies": {
+        "aos": "^3.0.0-beta.6",
+        "bootstrap": "^5.2.0",
+        "lodash.throttle": "^4.1.1",
+        "popper.js": "^1.16",
+        "swiper": "^8.3",
+        "vanilla-lazyload": "17.8"
+    }
+}
