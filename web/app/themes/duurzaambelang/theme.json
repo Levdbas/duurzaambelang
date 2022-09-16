@@ -14,17 +14,12 @@
         {
           "name": "White",
           "slug": "white",
-          "color": "#ffffff"
+          "color": "#fcfcfc"
         },
         {
           "name": "Black",
           "slug": "black",
           "color": "#000000"
-        },
-        {
-          "name": "Yellow",
-          "slug": "yellow",
-          "color": "#e9c552"
         },
         {
           "name": "Gray",

@@ -33,6 +33,6 @@ add_action('after_setup_theme', __NAMESPACE__ . '\\theme_initialize');
  * Setup Site icons and manifest.
  */
 $icons                   = new Site_Icons();
-$icons->short_name       = 'Short name';
-$icons->background_color = '#f9f9f9';       // must be hex color.
-$icons->theme_color      = '#f7d600';       // must be hex color.
+$icons->short_name       = 'Duurzaam Belang';
+$icons->background_color = '#35472f';       // must be hex color.
+$icons->theme_color      = '#35472f';       // must be hex color.

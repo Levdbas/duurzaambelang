@@ -310,16 +310,16 @@
         },
         {
             "name": "giggsey/libphonenumber-for-php",
-            "version": "8.12.52",
+            "version": "8.12.54",
             "source": {
                 "type": "git",
                 "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-                "reference": "9a5269012e21d5a357f93d413fcc7a854a36b69d"
+                "reference": "d0bad134ca7206d36784c2c5ec531ba4513efde7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/9a5269012e21d5a357f93d413fcc7a854a36b69d",
-                "reference": "9a5269012e21d5a357f93d413fcc7a854a36b69d",
+                "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/d0bad134ca7206d36784c2c5ec531ba4513efde7",
+                "reference": "d0bad134ca7206d36784c2c5ec531ba4513efde7",
                 "shasum": ""
             },
             "require": {
@@ -379,7 +379,7 @@
                 "issues": "https://github.com/giggsey/libphonenumber-for-php/issues",
                 "source": "https://github.com/giggsey/libphonenumber-for-php"
             },
-            "time": "2022-07-20T12:38:47+00:00"
+            "time": "2022-08-22T06:43:42+00:00"
         },
         {
             "name": "giggsey/locale",
@@ -1195,11 +1195,11 @@
         },
         {
             "name": "satispress/fluentformpro",
-            "version": "4.3.9",
+            "version": "4.3.12",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.studiolemon.nl/satispress/fluentformpro/4.3.9",
-                "shasum": "e5e69048aca0f3da7be44294b9f58c324bb37eb7"
+                "url": "https://packagist.studiolemon.nl/satispress/fluentformpro/4.3.12",
+                "shasum": "7ea5e3dee293c3c13bdfbfa8b0ccba0e974fc33b"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1233,11 +1233,11 @@
         },
         {
             "name": "satispress/quartermaster",
-            "version": "1.9.0",
+            "version": "1.9.1",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.studiolemon.nl/satispress/quartermaster/1.9.0",
-                "shasum": "f06bd2d2c80aaaf1b572700c368422efdd29ad1d"
+                "url": "https://packagist.studiolemon.nl/satispress/quartermaster/1.9.1",
+                "shasum": "15488728b3f3fde3b7640abc872879c2393d82f5"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1252,11 +1252,11 @@
         },
         {
             "name": "satispress/wp-lemon",
-            "version": "3.21.0",
+            "version": "3.21.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.studiolemon.nl/satispress/wp-lemon/3.21.0",
-                "shasum": "616a59b2514e180a43f0b416f73cc892d3fa2161"
+                "url": "https://packagist.studiolemon.nl/satispress/wp-lemon/3.21.2",
+                "shasum": "190cda040a1774cb5646e0010d22f34784d52791"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1270,11 +1270,11 @@
         },
         {
             "name": "satispress/wp-migrate-db-pro",
-            "version": "2.3.3",
+            "version": "2.3.4",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.studiolemon.nl/satispress/wp-migrate-db-pro/2.3.3",
-                "shasum": "23ff2fc3301f8522068a7c5376b24279263c8797"
+                "url": "https://packagist.studiolemon.nl/satispress/wp-migrate-db-pro/2.3.4",
+                "shasum": "d4afae8a20d95ec32c99222335e522585bc9a73e"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1882,16 +1882,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.15.1",
+            "version": "v2.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3b7cedb2f736899a7dbd0ba3d6da335a015f5cc4"
+                "reference": "3e43405a9a8b578809426339cc3780e16fba0c52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3b7cedb2f736899a7dbd0ba3d6da335a015f5cc4",
-                "reference": "3b7cedb2f736899a7dbd0ba3d6da335a015f5cc4",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3e43405a9a8b578809426339cc3780e16fba0c52",
+                "reference": "3e43405a9a8b578809426339cc3780e16fba0c52",
                 "shasum": ""
             },
             "require": {
@@ -1946,7 +1946,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v2.15.1"
+                "source": "https://github.com/twigphp/Twig/tree/v2.15.2"
             },
             "funding": [
                 {
@@ -1958,7 +1958,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-17T05:46:24+00:00"
+            "time": "2022-08-12T06:43:37+00:00"
         },
         {
             "name": "upstatement/routes",
@@ -2116,15 +2116,15 @@
         },
         {
             "name": "wpackagist-plugin/fluent-smtp",
-            "version": "2.1.2",
+            "version": "2.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fluent-smtp/",
-                "reference": "tags/2.1.2"
+                "reference": "tags/2.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fluent-smtp.2.1.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/fluent-smtp.2.2.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2134,15 +2134,15 @@
         },
         {
             "name": "wpackagist-plugin/fluentform",
-            "version": "4.3.9",
+            "version": "4.3.12",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fluentform/",
-                "reference": "tags/4.3.9"
+                "reference": "tags/4.3.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/fluentform.4.3.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/fluentform.4.3.12.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2152,15 +2152,15 @@
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
-            "version": "2.25.3",
+            "version": "2.25.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
-                "reference": "tags/2.25.3"
+                "reference": "tags/2.25.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.25.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.25.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2170,15 +2170,15 @@
         },
         {
             "name": "wpackagist-plugin/seo-by-rank-math",
-            "version": "1.0.94",
+            "version": "1.0.96",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/seo-by-rank-math/",
-                "reference": "tags/1.0.94"
+                "reference": "tags/1.0.96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.94.zip"
+                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.96.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
