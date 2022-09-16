@@ -22,21 +22,21 @@ $container-max-widths: (
 // https://www.color-blindness.com/color-name-hue/
 // ==========================================================================
 $white: #fcfcfc;
-$black: #000000;
+$black: #0d3711;
 $yellow: #ffae00;
 
-$base-color: $white;
+$base-color: $black;
 $highlight1: $yellow;
 $highlight2: $black;
 $background-color: #f9f9f9;
-
-$body-background: #4d6246;
+$color-axolotl: #4d6246;
 
 $brand-colors: (
 	"white":  $white,
 	"black":  $black,
 	"gray": #e9e9e9,
 );
+$link-color: $highlight2;
 
 // ==========================================================================
 // Font settings
@@ -62,6 +62,18 @@ $logo-width-header: 200px !default;
 // ==========================================================================
 // Navigation | menu
 // ==========================================================================
+$nav-text: (
+	"font-weight": 700,
+	"font-size": 1rem,
+	"transform": none,
+	"color": $highlight2,
+	"hover": darken($highlight2, 20%),
+	"active": $color-axolotl,
+	"font-size-mobile": 1.25rem,
+	"color-mobile": $black,
+	"color-mobile-active": $black,
+	"color-mobile-hover": darken($highlight2, 20%)
+);
 
 // ==========================================================================
 // Footer
